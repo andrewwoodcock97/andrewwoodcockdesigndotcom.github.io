@@ -6,6 +6,13 @@ body{
 /*    margin-top: 125px;*/
 }
 
+.hide-desktop{
+    display: none;
+}
+
+.hide-mobile{
+        display: inline;
+    }
 
 .AW{
     height: 100px;
@@ -36,6 +43,12 @@ body{
 .topnav a.active {
     background-color: lightgrey;
     color: white;
+}
+
+.copy{
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 20px;
 }
 
 .punkhome:hover{
@@ -516,22 +529,34 @@ Extra large   ≥1200px   .col-xl-
 
 /* Apply these rules if the screen width is GREATER than 576px */
 
+@media (max-width: 576px) {
+    
+
+    
+    .hide-desktop{
+    display:inline;
+}
+    .hide-mobile{
+        display: none;
+    }
+    
+    
+}
+
 @media (min-width: 576px) {
     
-     .nomobile{
+    .nomobile{
         display: block;
     }
 
- .nodesktop{
+    .nodesktop{
         display: none;
-        position:inherit !important;
-        margin-top: -300px;
+        position:inherit !important;;
     }
     
-  .all-cols{
+    .all-cols{
     border-color:white;
-  }
-    
+    }
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
