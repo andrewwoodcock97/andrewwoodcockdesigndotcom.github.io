@@ -1,0 +1,846 @@
+body{
+    background-color: black;
+    color: #fff;  
+    font-family: "interface";
+    
+/*    margin-top: 125px;*/
+}
+
+.hide-desktop{
+    display: none;
+}
+
+.hide-mobile{
+        display: inline;
+    }
+
+.AW{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.topnav
+{
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    position: fixed;
+    top: 30px;
+    margin-left: 700px;
+}
+
+.topnav a{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    font-size: 26px;
+    margin-left: 200px;
+}
+
+.topnav a:hover {
+    color: lightgrey;
+}
+
+.topnav a.active {
+    background-color: lightgrey;
+    color: white;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 26px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+    
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+.copy{
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.punkhome:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    opacity: ease;
+    visibility: visible;
+    height: auto;
+}
+
+.PUNK{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 70px;
+    color: white;
+}
+
+.PUNKmobile{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+.motyfhome:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    height: auto;
+}
+
+.MOTYFdesk{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 70px;
+    color: white;
+}
+
+.MOTYFmobile{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.habfathome:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    height: auto;
+}
+
+.Habfatdesktop{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 70px;
+    color: white;
+}
+
+.Habfatmobile{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+
+.maldiveshome:hover{
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height: auto;
+}
+
+.Maldivesdesktop{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 70px;
+    color: white;
+}
+
+.Maldivesmobile{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+
+.punknext{
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 800px;
+}
+
+.punknext a:hover{
+    color: lightgrey;
+}
+
+.punknext a{
+    text-decoration: none;
+    color: white;
+}
+
+.motyfnext{
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 800px;
+}
+
+.motyfnext a:hover{
+    color: lightgrey;
+}
+
+.motyfnext a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.habfatnext{
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 800px;
+}
+
+.habfatnext a:hover{
+    color: lightgrey;
+}
+
+.habfatnext a{
+    text-decoration: none;
+    color: white;
+}
+
+.maldivesnext{
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 800px;
+}
+
+.maldivesnext a:hover{
+    color: lightgrey;
+}
+
+.maldivesnext a{
+    text-decoration: none;
+    color: white;
+}
+
+.coffee{
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.email{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.email a{
+    text-decoration: none;
+    color: white;
+}
+
+.email a:hover{
+    color: lightgrey;
+}
+
+.number{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* Punk */
+
+.Cataloguehead{
+    margin-top: 50px;
+    font-weight: 250;
+    font-size: 74px;
+}
+
+.Punkhead{
+    font-weight: 900;
+    font-size: 74px;
+    margin-top: -25px;
+}
+
+.rolespunk{
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.punknames{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.punkbody{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 50px;
+}
+
+.contentspage{
+    margin-top: 50px;
+}
+
+.conclose{
+    margin-top: 50px;
+}
+
+.smokepage{
+    margin-top: 50px;
+}
+
+.twosmall{
+    margin-top: 50px;
+}
+
+.punkclose{
+    margin-top: 50px;
+}
+
+.twosmall2{
+    margin-top: 50px;
+}
+
+.largeposter{
+    margin-top: 50px;
+}
+
+.smallposter{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* Malives */ 
+
+.headtext{
+    line-height: 4.0;
+}
+
+.filmtitles{
+    margin-top: 50px;
+    font-weight: 250;
+    font-size: 74px;
+}
+
+.Maldives{
+    font-weight: 900;
+    font-size: 74px;
+    margin-top: -25px;
+}
+
+.projectrolesfour{
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.namesfour{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.maldivesbody{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 50px;
+}
+
+.grey{
+    background-color:  dimgrey;
+}
+
+.coverpage{
+    margin-top: 50px;
+}
+
+.thankspage{
+    margin-top: 50px;
+}
+
+.directorpg{
+    margin-top: 50px;
+}
+
+.twosmallmaldives{
+    margin-top: 50px;   
+}
+
+.name{
+    margin-top: 50px;
+}
+
+.threed{
+    margin-top: 50px; 
+}
+
+.posters{
+    margin-top: 50px;
+    margin-left: 40px; 
+}
+
+.posterwall{
+    margin-top: 50px;
+}
+
+
+
+
+/* Habfat */
+
+.photographyhead{
+    margin-top: 50px;
+    font-weight: 250;
+    font-size: 74px;
+}
+
+.hatshead{
+    font-weight: 900;
+    font-size: 74px;
+    margin-top: -25px;
+}
+
+.roleshats{
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.hatsnames{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.habfatbody{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 50px;
+}
+
+.habfatvideo{
+    margin-top: 100px;
+}
+
+.blackhat{
+    margin-top: 50px;
+}
+
+.twosmallblackhats{
+    margin-top: 50px;
+}
+
+.redlarge{
+    margin-top: 50px;
+}
+
+.twosmallredhats{
+    margin-top: 50px;
+}
+
+.whitehat{
+    margin-top: 50px;
+}
+
+.cal{
+    margin-top: 50px;
+}
+
+.ciara{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* MOTYF */
+
+.brandhead{
+    margin-top: 50px;
+    font-weight: 250;
+    font-size: 74px;
+}
+
+.motyfhead{
+    font-weight: 900;
+    font-size: 74px;
+    margin-top: -25px;
+}
+
+.rolesmotyf{
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.namesmotyf{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.motyfbody{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 50px;
+}
+
+.bookonelrg{
+    margin-top: 50px;
+}
+
+.booktwolrg{
+    margin-top: 50px;
+}
+
+.bookthreelrg{
+    margin-top: 50px;
+}
+
+.twomotyfa{
+    margin-top: 50px;
+}
+
+.twomotyfb{
+    margin-top: 50px;
+}
+
+.twomotyfc{
+    margin-top: 50px;
+}
+
+.postersmotyf{
+    margin-top: 50px;
+    margin-left: 140px; 
+}
+
+.auditorium{
+    margin-top: 50px;
+}
+
+
+.all-cols{
+  border-style: white;
+  border-color: yellow;
+}
+#img-got{
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+#img-foo{
+  padding: 10px;
+  height: 400px;
+  z-index: -100;
+}
+
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+    
+    .nomobile{
+        display: none;
+    }
+    
+  h2{
+    font-size: 1rem
+  }
+    
+.nodesktop{
+        display: block;
+        margin-top: -300px; 
+    }
+    
+  #img-foo{
+    display: none;
+  }
+  .all-cols{
+    border-color:white;
+  }
+    
+.topnav
+{
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    position: fixed;
+    top: 50px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.topnav a{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    font-size: 26px;
+    margin-left: 0px;
+     margin-right: 20px;
+}
+    
+}
+
+.mobile_button-home{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.arrow_home{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile_button-open{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+}
+
+.sidenav{
+    padding-top: 15px;}
+
+.sidenav a{
+    font-size: 26px;}
+
+.sidecopy{
+    font-family: url('InterFace/InterFace_Trial_Rg.ttf');
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (max-width: 576px) {
+    
+
+    
+    .hide-desktop{
+    display:inline;
+}
+    .hide-mobile{
+        display: none;
+    }
+    
+    
+}
+
+@media (min-width: 576px) {
+    
+    .nomobile{
+        display: block;
+    }
+
+    .nodesktop{
+        display: none;
+        position:inherit !important;;
+    }
+    
+    .all-cols{
+    border-color:white;
+    }
+    
+    
+    
+    .mobile_button-home{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.arrow_home{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile_button-open{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+}
+    
+    
+    
+    
+    
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  .all-cols{
+    border-color:blue;
+  }
+    
+    .mobile_button-home{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.arrow_home{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile_button-open{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+}
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+  .all-cols{
+    border-color:yellow;
+  }
+    
+    .mobile_button-home{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.arrow_home{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile_button-open{
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+    z-index: 100;
+    right: 10px;
+    color: white;
+}
+    
+    
+    
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  .all-cols{
+    border-color:red;
+  }
+}
